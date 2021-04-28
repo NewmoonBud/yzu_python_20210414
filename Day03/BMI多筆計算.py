@@ -11,6 +11,17 @@ def printBMI(h, w):
         print("過輕")
     else:
         print("正常")
+// ex:
+// result = "過重" if bmi > 23 else "過輕" if bmi <= 18 else "正常"
+// print("h= %.1f w=%.1f bmi=%.2f result=%s" % (h, w, bmi, result))
+
+// ex:
+// result = "過輕"
+// if 18 < bmi <= 23""
+//   result = "正常"
+// elif bmi > 23:
+//   result = "過重"
+// print("h= %.1f w=%.1f bmi=%.2f result=%s" % (h, w, bmi, result))
 
 
 printBMI(170, 50)
