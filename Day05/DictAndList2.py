@@ -13,3 +13,4 @@ for emp in emps:
             # print(emp['name'],p)
             names.append(emp['name'])
 print(names)
+
